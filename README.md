@@ -179,8 +179,6 @@ You will commit all your code on a daily basis, when you finish your practice.
 
 * [Design Patterns Card](http://www.mcdonaldland.info/files/designpatterns/designpatternscard.pdf)
 
-* [Design Patterns CD](http://www.saeedsh.com/resources/Design%20Patterns.pdf)
-
 #####Practice:#####
 
 1. [OOP Exercises](http://www.ntu.edu.sg/home/ehchua/programming/java/J3f_OOPExercises.html)
@@ -201,9 +199,8 @@ Commit your practice code.
 ####Topic 1: Design Patterns (3 days)####
 
 #####Reading:#####
-1. [Design Patterns CD](http://www.saeedsh.com/resources/Design%20Patterns.pdf)
 
-2. Explore [Design Patterns](http://www.avajava.com/tutorials/categories/design-patterns)
+1. Explore [Design Patterns](http://www.avajava.com/tutorials/categories/design-patterns)
 
 #####Extra documentation:#####
 
