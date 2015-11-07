@@ -3,11 +3,11 @@ package com.Domain;
 public class Song {
 
 	private String name;
-	private int totalTime;
+	private int seconds;
 	
-	public Song(String name, int totalTime){
-		this.name = name;
-		this.totalTime = totalTime;
+	public Song(String name, int secs){
+		this.name=name;
+		this.seconds=secs;
 	}
 	public String getName() {
 		return name;
@@ -15,11 +15,14 @@ public class Song {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public int getTotalTime() {
-		return totalTime;
+	public int getSeconds() {
+		return seconds;
 	}
-	public void setTotalTime(int totalTime) {
-		this.totalTime = totalTime;
+	public void setSeconds(int seconds) {
+		this.seconds = seconds;
 	}
-
+	public String toString(){
+		return "Song: "+this.name+" "+this.seconds;
+	}
+	
 }
