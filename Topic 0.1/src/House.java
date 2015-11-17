@@ -2,10 +2,12 @@ import java.awt.List;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.Map;
 
 public class House extends Terrain {
 
-	private HashMap<Integer, ArrayList<Room>> houseFloors;
+	private Map<Integer, ArrayList<Room>> houseFloors;
 
 	public House(double d, String address, int zipCode, int floors) {
 		super(d, address, zipCode);
